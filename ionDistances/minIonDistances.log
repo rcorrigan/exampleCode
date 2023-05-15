@@ -1,0 +1,248 @@
+ ______________________________________________________________________________
+
+        FORCE FIELD X - Software for Molecular Biophysics 
+
+        Version 1.0.0-BETA-unknown  February 2023 
+
+        Copyright (c)  Michael J. Schnieders  2001-2023 
+        Portions Copyright (c):
+          Timothy D. Fenn      2009-2023 
+          Jacob M. Litman      2015-2023 
+          Rae A. Corrigan      2019-2023 
+          Guowei Qi            2019-2023 
+          Mallory R. Tollefson 2019-2023 
+          Aaron J. Nessler     2021-2023 
+
+        All Rights Reserved 
+
+        Force Field X is distributed under the GPL v. 3 license
+        with linking exception and is hosted by the Schnieders Lab 
+        at The University of Iowa.
+
+        For publications see    http://ffx.biochem.uiowa.edu/publications.html 
+        For the GPL v.3 license http://ffx.biochem.uiowa.edu/license.html 
+
+ ______________________________________________________________________________
+
+ Mon May 15 17:02:58 CDT 2023
+ Process ID 3374 on DESKTOP-81M24F7.
+
+ Command line arguments:
+ [FindMinIonDistance.groovy, 1zih.arc]
+
+ Starting up the command line interface.
+
+ Executing external script: C:\Users\raeco\Documents\UIowa\PostGrad\exampleCode\ionDistances\FindMinIonDistance.groovy
+
+ Parsing: Internal force field (amoeba-bio-2018).
+ Parsing: Structure properties from (C:\Users\raeco\Documents\UIowa\PostGrad\exampleCode\ionDistances\1zih.key).
+ Parsing: JVM system properties (i.e. command line -Dkey=value pairs).
+
+ Opening 1zih.arc with 400 atoms
+
+ Constructing Force Field AMOEBA-BIO-2018
+
+ SMP threads:                                 8
+ The system will be treated as aperiodic.
+
+ Bonded Terms
+  Bonds:                                    419
+  Angles:                                   746
+  Stretch-Bends:                            631
+  Out-of-Plane Bends:                       219
+  Torsions:                                1114
+  Stretch-Torsions:                          34
+  Angle-Torsions:                            56
+  Pi-Orbital Torsions:                       71
+
+ Non-Bonded Terms
+
+  Van der Waals
+   Cut-Off:                                NONE
+   Long-Range Correction:                 FALSE
+
+
+ Electrostatics
+   Polarization:                         MUTUAL
+    SCF Convergence Criteria:         1.000e-06
+    SCF Predictor:                         NONE
+    SCF Algorithm:                           CG
+    CG Preconditioner Cut-Off:            4.500
+    CG Preconditioner Ewald Coeff.:       0.000
+    CG Preconditioner Scale:              2.000
+    CG Preconditioner Mode:     FLETCHER_REEVES
+    Electrostatics Cut-Off:                NONE
+
+  Continuum Solvation
+   Radii:                                SOLUTE
+   Generalized Kirkwood Cut-Off:           NONE
+   GKC:                                  2.4550
+   Solvent Dielectric:                  78.3000
+   Solute Dielectric:                    1.0000
+   Descreen with vdW Radii:                TRUE
+   Descreen with Hydrogen Atoms:          FALSE
+   Descreen Offset:                      0.0000
+   General HCT Scale Factor:             0.7200
+   Non-Polar Model:                    CAV-DISP
+   Dispersion Integral Offset:           1.0560 (A)
+   Cavitation Probe Radius:              1.4000 (A)
+   Cavitation Surface Tension:           0.1030 (Kcal/mol/A^2)
+
+  Overall system charge:                 -0.000
+ Restraint-Bond     33-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     33-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond     67-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    101-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    132-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    166-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    197-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    230-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    263-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    297-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    328-P    400-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    390-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    391-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    392-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    393-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    394-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    395-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    396-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    397-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    398-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    399-Na+ 25.0000  0.0000      0.0000
+ Restraint-Bond    359-P    400-Na+ 25.0000  0.0000      0.0000
+
+ Opened 1zih.arc in 0.792 sec.
+
+ System Resources
+  JVM memory:               4037 MB free out of   4096 MB
+
+ Attempting to read snapshot 2.
+Minimum distance between restrained ion and phosphorous in current snapshot 8.085
+
+ Attempting to read snapshot 3.
+Minimum distance between restrained ion and phosphorous in current snapshot 7.439
+
+ Attempting to read snapshot 4.
+Minimum distance between restrained ion and phosphorous in current snapshot 8.374
+
+ Attempting to read snapshot 5.
+Minimum distance between restrained ion and phosphorous in current snapshot 6.864
+
+ Attempting to read snapshot 6.
+Minimum distance between restrained ion and phosphorous in current snapshot 7.531
+
+ Attempting to read snapshot 7.
+Minimum distance between restrained ion and phosphorous in current snapshot 11.168
+
+ Attempting to read snapshot 8.
+Minimum distance between restrained ion and phosphorous in current snapshot 10.502
+
+ Attempting to read snapshot 9.
+Minimum distance between restrained ion and phosphorous in current snapshot 8.515
+
+ Attempting to read snapshot 10.
+Minimum distance between restrained ion and phosphorous in current snapshot 12.323
+
+Minimum across trajectory 6.864
+
+ Script wall clock time:  3.966 (sec)
