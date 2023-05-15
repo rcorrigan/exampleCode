@@ -1,5 +1,4 @@
-# exampleCode
-Programming examples
+# Programming examples
 
 This repository contains samples of code I have worked on/created for various projects as well as links to programming work that is part of specific software packages
 
