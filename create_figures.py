@@ -5,46 +5,6 @@ import numpy as np
 def create_figures(rmsd_df, title):
     x = pd.Series(np.arange(0.1, 500, 0.1))
     fig = go.Figure()
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['All_HA_RMSD_min'],
-    #         name="All HA RMSD: min"
-    #     )
-    # )
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['Non_Terminal_RMSD_min'],
-    #         name="Non-Term HA RMSD: min, \n" + str("{:.3f}".format(rmsd_df['Non_Terminal_RMSD_min'].mean()))
-    #     )
-    # )
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['BBRMSD_min'],
-    #         name="BBRMSD: min"
-    #     )
-    # )
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['Non_Terminal_BBRMSD_min'],
-    #         name="Non-Term BBRMSD: min, \n" + str("{:.3f}".format(rmsd_df['Non_Terminal_BBRMSD_min'].mean()))
-    #     )
-    # )
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['All_HA_RMSD_orig'],
-    #         name="All HA RMSD: orig"
-    #     )
-    # )
     fig.add_trace(
         go.Scatter(
             mode='markers',
@@ -53,14 +13,6 @@ def create_figures(rmsd_df, title):
             name="Non-Term HA RMSD: orig, \n" + str("{:.3f}".format(rmsd_df['Non_Terminal_RMSD_orig'].mean()))
         )
     )
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['BBRMSD_orig'],
-    #         name="BBRMSD: orig"
-    #     )
-    # )
     fig.add_trace(
         go.Scatter(
             mode='markers',
@@ -79,14 +31,6 @@ def create_figures(rmsd_df, title):
 def create_ion_figures(rmsd_df, title):
     x = pd.Series(np.arange(0.1, 500, 0.1))
     fig = go.Figure()
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['All_HA_RMSD_min'],
-    #         name="All HA RMSD: min"
-    #     )
-    # )
     fig.add_trace(
         go.Scatter(
             mode='markers',
@@ -95,14 +39,6 @@ def create_ion_figures(rmsd_df, title):
             name="Non-Term HA RMSD: min, " + str("{:.3f}".format(rmsd_df['Non_Terminal_RMSD_min'].mean()))
         )
     )
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['BBRMSD_min'],
-    #         name="BBRMSD: min"
-    #     )
-    # )
     fig.add_trace(
         go.Scatter(
             mode='markers',
@@ -121,14 +57,6 @@ def create_ion_figures(rmsd_df, title):
 def create_dna_figures(rmsd_df, title):
     x = pd.Series(np.arange(0.1, 500, 0.1))
     fig = go.Figure()
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['All_HA_RMSD_aform'],
-    #         name="All HA RMSD: aform"
-    #     )
-    # )
     fig.add_trace(
         go.Scatter(
             mode='markers',
@@ -138,14 +66,6 @@ def create_dna_figures(rmsd_df, title):
                 "{:.3f}".format(rmsd_df['Non_Terminal_RMSD_aform'].mean()))
         )
     )
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['BBRMSD_aform'],
-    #         name="BBRMSD: aform"
-    #     )
-    # )
     fig.add_trace(
         go.Scatter(
             mode='markers',
@@ -154,14 +74,6 @@ def create_dna_figures(rmsd_df, title):
             name="Non-Term BBRMSD: aform, " + str("{:.3f}".format(rmsd_df['Non_Terminal_BBRMSD_aform'].mean()))
         )
     )
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['All_HA_RMSD_bform'],
-    #         name="All HA RMSD: bform"
-    #     )
-    # )
     fig.add_trace(
         go.Scatter(
             mode='markers',
@@ -171,14 +83,6 @@ def create_dna_figures(rmsd_df, title):
                 "{:.3f}".format(rmsd_df['Non_Terminal_RMSD_bform'].mean()))
         )
     )
-    # fig.add_trace(
-    #     go.Scatter(
-    #         mode='markers',
-    #         x=x[0:len(rmsd_df)],
-    #         y=rmsd_df['BBRMSD_bform'],
-    #         name="BBRMSD: bform"
-    #     )
-    # )
     fig.add_trace(
         go.Scatter(
             mode='markers',
